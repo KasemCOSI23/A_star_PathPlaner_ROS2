@@ -1,1 +1,1 @@
-# A-PathPlaner-for-ROS2-
+# A* PathPlaner for ROS2
