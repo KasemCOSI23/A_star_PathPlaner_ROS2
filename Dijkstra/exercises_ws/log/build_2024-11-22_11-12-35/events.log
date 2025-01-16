@@ -1,0 +1,48 @@
+[0.000000] (-) TimerEvent: {}
+[0.000901] (ros2_exercises) JobQueued: {'identifier': 'ros2_exercises', 'dependencies': OrderedDict()}
+[0.001060] (ros2_exercises) JobStarted: {'identifier': 'ros2_exercises'}
+[0.099045] (-) TimerEvent: {}
+[0.199628] (-) TimerEvent: {}
+[0.300110] (-) TimerEvent: {}
+[0.400620] (-) TimerEvent: {}
+[0.501079] (-) TimerEvent: {}
+[0.601539] (-) TimerEvent: {}
+[0.702098] (-) TimerEvent: {}
+[0.802688] (-) TimerEvent: {}
+[0.904243] (-) TimerEvent: {}
+[1.004800] (-) TimerEvent: {}
+[1.105531] (-) TimerEvent: {}
+[1.206382] (-) TimerEvent: {}
+[1.308028] (-) TimerEvent: {}
+[1.409272] (-) TimerEvent: {}
+[1.449480] (ros2_exercises) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sjamil/exercises_ws/build/ros2_exercises/build', '--no-deps', 'symlink_data'], 'cwd': '/home/sjamil/exercises_ws/build/ros2_exercises', 'env': {'VNCDESKTOP': 'd36b7674d424:1 (sjamil)', 'QT_SCALE_FACTOR': '1', 'USER': 'sjamil', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': 'd36b7674d424', 'XDG_SESSION_TYPE': 'x11', '__GLX_VENDOR_LIBRARY_NAME': 'nvidia', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sjamil', 'OLDPWD': '/home/sjamil', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/sjamil/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-WbVINjZ2aE,guid=814836727caf351f021f858c67405696', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '976', 'GNOME_KEYRING_CONTROL': '/home/sjamil/.cache/keyring-OBAWX2', 'COLCON_PREFIX_PATH': '/home/sjamil/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/d36b7674d424:@/tmp/.ICE-unix/98,unix/d36b7674d424:/tmp/.ICE-unix/98', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'EXERCISES_WS': '/home/sjamil/exercises_ws', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/sjamil/.cache/keyring-OBAWX2/ssh', 'ROS_DOMAIN_ID': '35', 'AMENT_PREFIX_PATH': '/home/sjamil/ros2_ws/install/andino_gz:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'TERMINATOR_UUID': 'urn:uuid:78098015-e007-4817-9b60-d0472c1c6aa5', 'VNC_PASSWORD': '', 'IGN_GAZEBO_RESOURCE_PATH': '/home/sjamil/ros2_ws/install/andino_gz/share/andino_gz/models', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/sjamil/exercises_ws/build/ros2_exercises', 'PASSWORD': '', 'PYTHONPATH': '/home/sjamil/exercises_ws/build/ros2_exercises/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages:/home/sjamil/ros2_ws/install/andino_gz/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sjamil/ros2_ws/install/andino_gz', 'ROS2_WS': '/home/sjamil/ros2_ws', 'QT_FONT_DPI': '96'}, 'shell': False}
+[1.509379] (-) TimerEvent: {}
+[1.609887] (-) TimerEvent: {}
+[1.710492] (-) TimerEvent: {}
+[1.811131] (-) TimerEvent: {}
+[1.911635] (-) TimerEvent: {}
+[1.978015] (ros2_exercises) StdoutLine: {'line': b'running develop\n'}
+[1.979601] (ros2_exercises) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.979956] (ros2_exercises) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.011776] (-) TimerEvent: {}
+[2.112346] (-) TimerEvent: {}
+[2.213018] (-) TimerEvent: {}
+[2.313803] (-) TimerEvent: {}
+[2.319321] (ros2_exercises) StdoutLine: {'line': b'running egg_info\n'}
+[2.319775] (ros2_exercises) StdoutLine: {'line': b'writing ros2_exercises.egg-info/PKG-INFO\n'}
+[2.320090] (ros2_exercises) StdoutLine: {'line': b'writing dependency_links to ros2_exercises.egg-info/dependency_links.txt\n'}
+[2.320437] (ros2_exercises) StdoutLine: {'line': b'writing entry points to ros2_exercises.egg-info/entry_points.txt\n'}
+[2.320666] (ros2_exercises) StdoutLine: {'line': b'writing requirements to ros2_exercises.egg-info/requires.txt\n'}
+[2.320830] (ros2_exercises) StdoutLine: {'line': b'writing top-level names to ros2_exercises.egg-info/top_level.txt\n'}
+[2.324677] (ros2_exercises) StdoutLine: {'line': b"reading manifest file 'ros2_exercises.egg-info/SOURCES.txt'\n"}
+[2.325089] (ros2_exercises) StdoutLine: {'line': b"writing manifest file 'ros2_exercises.egg-info/SOURCES.txt'\n"}
+[2.326453] (ros2_exercises) StdoutLine: {'line': b'running build_ext\n'}
+[2.326887] (ros2_exercises) StdoutLine: {'line': b'Creating /home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages/ros2-exercises.egg-link (link to .)\n'}
+[2.328098] (ros2_exercises) StdoutLine: {'line': b'Installing odometry_publisher script to /home/sjamil/exercises_ws/install/ros2_exercises/lib/ros2_exercises\n'}
+[2.328585] (ros2_exercises) StdoutLine: {'line': b'\n'}
+[2.328754] (ros2_exercises) StdoutLine: {'line': b'Installed /home/sjamil/exercises_ws/build/ros2_exercises\n'}
+[2.328905] (ros2_exercises) StdoutLine: {'line': b'running symlink_data\n'}
+[2.393287] (ros2_exercises) CommandEnded: {'returncode': 0}
+[2.414416] (-) TimerEvent: {}
+[2.430525] (ros2_exercises) JobEnded: {'identifier': 'ros2_exercises', 'rc': 0}
+[2.432727] (-) EventReactorShutdown: {}

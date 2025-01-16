@@ -1,0 +1,187 @@
+[0.221s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.221s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=14, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f78042b4d60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f78042b4250>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f78042b4250>>)
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.615s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sjamil/exercises_ws'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_exercises' with type 'ros.ament_python' and name 'ros2_exercises'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises2) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises2) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises2) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises2) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises2) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises2) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises2) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises2) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_exercises2) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_exercises2' with type 'ros.ament_python' and name 'ros2_exercises2'
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.704s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.709s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sjamil/exercises_ws/install
+[0.712s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/sjamil/install
+[0.713s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/sjamil/ros2_ws/install
+[0.716s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[0.747s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises' build argument 'cmake_args' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises' build argument 'cmake_target' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises' build argument 'cmake_clean_cache' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises' build argument 'cmake_clean_first' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises' build argument 'cmake_force_configure' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises' build argument 'ament_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises' build argument 'catkin_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.843s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_exercises' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sjamil/exercises_ws/build/ros2_exercises', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sjamil/exercises_ws/install/ros2_exercises', 'merge_install': False, 'path': '/home/sjamil/exercises_ws/src/ros2_exercises', 'symlink_install': True, 'test_result_base': None}
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises2' build argument 'cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises2' build argument 'cmake_target' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises2' build argument 'cmake_clean_first' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises2' build argument 'cmake_force_configure' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises2' build argument 'ament_cmake_args' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'ros2_exercises2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.844s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_exercises2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sjamil/exercises_ws/build/ros2_exercises2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sjamil/exercises_ws/install/ros2_exercises2', 'merge_install': False, 'path': '/home/sjamil/exercises_ws/src/ros2_exercises2', 'symlink_install': True, 'test_result_base': None}
+[0.844s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.847s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.847s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sjamil/exercises_ws/src/ros2_exercises' with build type 'ament_python'
+[0.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_exercises', 'ament_prefix_path')
+[0.854s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjamil/exercises_ws/install/ros2_exercises/share/ros2_exercises/hook/ament_prefix_path.ps1'
+[0.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjamil/exercises_ws/install/ros2_exercises/share/ros2_exercises/hook/ament_prefix_path.dsv'
+[0.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjamil/exercises_ws/install/ros2_exercises/share/ros2_exercises/hook/ament_prefix_path.sh'
+[0.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.871s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sjamil/exercises_ws/src/ros2_exercises2' with build type 'ament_python'
+[0.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_exercises2', 'ament_prefix_path')
+[0.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjamil/exercises_ws/install/ros2_exercises2/share/ros2_exercises2/hook/ament_prefix_path.ps1'
+[0.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjamil/exercises_ws/install/ros2_exercises2/share/ros2_exercises2/hook/ament_prefix_path.dsv'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjamil/exercises_ws/install/ros2_exercises2/share/ros2_exercises2/hook/ament_prefix_path.sh'
+[0.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.498s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sjamil/exercises_ws/src/ros2_exercises'
+[1.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.135s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sjamil/exercises_ws/src/ros2_exercises2'
+[2.136s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.136s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sjamil/exercises_ws/build/ros2_exercises': PYTHONPATH=/home/sjamil/exercises_ws/build/ros2_exercises/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sjamil/exercises_ws/build/ros2_exercises/build --no-deps symlink_data
+[3.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sjamil/exercises_ws/build/ros2_exercises2': PYTHONPATH=/home/sjamil/exercises_ws/build/ros2_exercises2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sjamil/exercises_ws/build/ros2_exercises2/build --no-deps symlink_data
+[3.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_exercises', 'pythonpath_develop')
+[3.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjamil/exercises_ws/build/ros2_exercises/share/ros2_exercises/hook/pythonpath_develop.ps1'
+[3.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sjamil/exercises_ws/build/ros2_exercises' returned '0': PYTHONPATH=/home/sjamil/exercises_ws/build/ros2_exercises/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sjamil/exercises_ws/build/ros2_exercises/build --no-deps symlink_data
+[3.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjamil/exercises_ws/build/ros2_exercises/share/ros2_exercises/hook/pythonpath_develop.dsv'
+[3.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjamil/exercises_ws/build/ros2_exercises/share/ros2_exercises/hook/pythonpath_develop.sh'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises' for CMake module files
+[3.691s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises' for CMake config files
+[3.693s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises/lib'
+[3.693s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises/bin'
+[3.693s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises/lib/pkgconfig/ros2_exercises.pc'
+[3.694s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages'
+[3.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_exercises', 'pythonpath')
+[3.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjamil/exercises_ws/install/ros2_exercises/share/ros2_exercises/hook/pythonpath.ps1'
+[3.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjamil/exercises_ws/install/ros2_exercises/share/ros2_exercises/hook/pythonpath.dsv'
+[3.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjamil/exercises_ws/install/ros2_exercises/share/ros2_exercises/hook/pythonpath.sh'
+[3.697s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises/bin'
+[3.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_exercises)
+[3.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjamil/exercises_ws/install/ros2_exercises/share/ros2_exercises/package.ps1'
+[3.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sjamil/exercises_ws/install/ros2_exercises/share/ros2_exercises/package.dsv'
+[3.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjamil/exercises_ws/install/ros2_exercises/share/ros2_exercises/package.sh'
+[3.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjamil/exercises_ws/install/ros2_exercises/share/ros2_exercises/package.bash'
+[3.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjamil/exercises_ws/install/ros2_exercises/share/ros2_exercises/package.zsh'
+[3.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sjamil/exercises_ws/install/ros2_exercises/share/colcon-core/packages/ros2_exercises)
+[3.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_exercises2', 'pythonpath_develop')
+[3.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjamil/exercises_ws/build/ros2_exercises2/share/ros2_exercises2/hook/pythonpath_develop.ps1'
+[3.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sjamil/exercises_ws/build/ros2_exercises2' returned '0': PYTHONPATH=/home/sjamil/exercises_ws/build/ros2_exercises2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sjamil/exercises_ws/build/ros2_exercises2/build --no-deps symlink_data
+[3.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjamil/exercises_ws/build/ros2_exercises2/share/ros2_exercises2/hook/pythonpath_develop.dsv'
+[3.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjamil/exercises_ws/build/ros2_exercises2/share/ros2_exercises2/hook/pythonpath_develop.sh'
+[3.787s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises2' for CMake module files
+[3.788s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises2' for CMake config files
+[3.789s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises2/lib'
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises2/bin'
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises2/lib/pkgconfig/ros2_exercises2.pc'
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises2/lib/python3.10/site-packages'
+[3.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_exercises2', 'pythonpath')
+[3.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjamil/exercises_ws/install/ros2_exercises2/share/ros2_exercises2/hook/pythonpath.ps1'
+[3.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjamil/exercises_ws/install/ros2_exercises2/share/ros2_exercises2/hook/pythonpath.dsv'
+[3.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjamil/exercises_ws/install/ros2_exercises2/share/ros2_exercises2/hook/pythonpath.sh'
+[3.795s] Level 1:colcon.colcon_core.environment:checking '/home/sjamil/exercises_ws/install/ros2_exercises2/bin'
+[3.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_exercises2)
+[3.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjamil/exercises_ws/install/ros2_exercises2/share/ros2_exercises2/package.ps1'
+[3.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sjamil/exercises_ws/install/ros2_exercises2/share/ros2_exercises2/package.dsv'
+[3.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjamil/exercises_ws/install/ros2_exercises2/share/ros2_exercises2/package.sh'
+[3.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjamil/exercises_ws/install/ros2_exercises2/share/ros2_exercises2/package.bash'
+[3.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjamil/exercises_ws/install/ros2_exercises2/share/ros2_exercises2/package.zsh'
+[3.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sjamil/exercises_ws/install/ros2_exercises2/share/colcon-core/packages/ros2_exercises2)
+[3.805s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.806s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.806s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.807s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.820s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.821s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.821s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.223s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sjamil/exercises_ws/install/local_setup.ps1'
+[4.228s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sjamil/exercises_ws/install/_local_setup_util_ps1.py'
+[4.233s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sjamil/exercises_ws/install/setup.ps1'
+[4.236s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sjamil/exercises_ws/install/local_setup.sh'
+[4.238s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sjamil/exercises_ws/install/_local_setup_util_sh.py'
+[4.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sjamil/exercises_ws/install/setup.sh'
+[4.250s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sjamil/exercises_ws/install/local_setup.bash'
+[4.252s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sjamil/exercises_ws/install/setup.bash'
+[4.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sjamil/exercises_ws/install/local_setup.zsh'
+[4.259s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sjamil/exercises_ws/install/setup.zsh'

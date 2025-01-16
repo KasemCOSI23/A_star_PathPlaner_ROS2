@@ -1,0 +1,26 @@
+[1.004s] Invoking command in '/home/sjamil/exercises_ws/build/ros2_exercises': PYTHONPATH=/home/sjamil/exercises_ws/build/ros2_exercises/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/sjamil/exercises_ws/build/ros2_exercises/build --no-deps symlink_data
+[1.359s] running develop
+[1.359s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.360s]   warnings.warn(
+[1.623s] running egg_info
+[1.623s] creating ros2_exercises.egg-info
+[1.624s] writing ros2_exercises.egg-info/PKG-INFO
+[1.624s] writing dependency_links to ros2_exercises.egg-info/dependency_links.txt
+[1.624s] writing entry points to ros2_exercises.egg-info/entry_points.txt
+[1.625s] writing requirements to ros2_exercises.egg-info/requires.txt
+[1.625s] writing top-level names to ros2_exercises.egg-info/top_level.txt
+[1.625s] writing manifest file 'ros2_exercises.egg-info/SOURCES.txt'
+[1.628s] reading manifest file 'ros2_exercises.egg-info/SOURCES.txt'
+[1.629s] writing manifest file 'ros2_exercises.egg-info/SOURCES.txt'
+[1.632s] running build_ext
+[1.632s] Creating /home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages/ros2-exercises.egg-link (link to .)
+[1.634s] Installing odometry_publisher script to /home/sjamil/exercises_ws/install/ros2_exercises/lib/ros2_exercises
+[1.635s] 
+[1.635s] Installed /home/sjamil/exercises_ws/build/ros2_exercises
+[1.635s] running symlink_data
+[1.635s] creating /home/sjamil/exercises_ws/install/ros2_exercises/share/ament_index
+[1.635s] creating /home/sjamil/exercises_ws/install/ros2_exercises/share/ament_index/resource_index
+[1.636s] creating /home/sjamil/exercises_ws/install/ros2_exercises/share/ament_index/resource_index/packages
+[1.636s] symbolically linking /home/sjamil/exercises_ws/build/ros2_exercises/resource/ros2_exercises -> /home/sjamil/exercises_ws/install/ros2_exercises/share/ament_index/resource_index/packages
+[1.636s] symbolically linking /home/sjamil/exercises_ws/build/ros2_exercises/package.xml -> /home/sjamil/exercises_ws/install/ros2_exercises/share/ros2_exercises
+[1.681s] Invoked command in '/home/sjamil/exercises_ws/build/ros2_exercises' returned '0': PYTHONPATH=/home/sjamil/exercises_ws/build/ros2_exercises/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/sjamil/exercises_ws/build/ros2_exercises/build --no-deps symlink_data

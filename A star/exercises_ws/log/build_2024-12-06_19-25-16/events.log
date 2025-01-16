@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.002021] (path_planner_example) JobQueued: {'identifier': 'path_planner_example', 'dependencies': OrderedDict()}
+[0.002110] (ros2_exercises) JobQueued: {'identifier': 'ros2_exercises', 'dependencies': OrderedDict()}
+[0.008722] (ros2_exercises2) JobQueued: {'identifier': 'ros2_exercises2', 'dependencies': OrderedDict()}
+[0.008822] (path_planner_example) JobStarted: {'identifier': 'path_planner_example'}
+[0.033744] (ros2_exercises) JobStarted: {'identifier': 'ros2_exercises'}
+[0.056479] (ros2_exercises2) JobStarted: {'identifier': 'ros2_exercises2'}
+[0.123612] (-) TimerEvent: {}
+[0.225390] (-) TimerEvent: {}
+[0.326066] (-) TimerEvent: {}
+[0.426750] (-) TimerEvent: {}
+[0.527363] (-) TimerEvent: {}
+[0.627886] (-) TimerEvent: {}
+[0.728481] (-) TimerEvent: {}
+[0.829294] (-) TimerEvent: {}
+[0.929878] (-) TimerEvent: {}
+[1.030443] (-) TimerEvent: {}
+[1.131032] (-) TimerEvent: {}
+[1.232076] (-) TimerEvent: {}
+[1.333114] (-) TimerEvent: {}
+[1.433653] (-) TimerEvent: {}
+[1.534195] (-) TimerEvent: {}
+[1.634764] (-) TimerEvent: {}
+[1.735609] (-) TimerEvent: {}
+[1.836225] (-) TimerEvent: {}
+[1.936902] (-) TimerEvent: {}
+[2.037558] (-) TimerEvent: {}
+[2.139046] (-) TimerEvent: {}
+[2.240092] (-) TimerEvent: {}
+[2.341078] (-) TimerEvent: {}
+[2.442596] (-) TimerEvent: {}
+[2.543372] (-) TimerEvent: {}
+[2.644045] (-) TimerEvent: {}
+[2.744695] (-) TimerEvent: {}
+[2.845356] (-) TimerEvent: {}
+[2.945978] (-) TimerEvent: {}
+[3.046550] (-) TimerEvent: {}
+[3.148263] (-) TimerEvent: {}
+[3.248770] (-) TimerEvent: {}
+[3.349314] (-) TimerEvent: {}
+[3.449781] (-) TimerEvent: {}
+[3.550312] (-) TimerEvent: {}
+[3.650963] (-) TimerEvent: {}
+[3.752032] (-) TimerEvent: {}
+[3.852722] (-) TimerEvent: {}
+[3.953343] (-) TimerEvent: {}
+[4.053928] (-) TimerEvent: {}
+[4.154645] (-) TimerEvent: {}
+[4.255117] (-) TimerEvent: {}
+[4.356179] (-) TimerEvent: {}
+[4.456799] (-) TimerEvent: {}
+[4.557484] (-) TimerEvent: {}
+[4.658004] (-) TimerEvent: {}
+[4.758690] (-) TimerEvent: {}
+[4.859296] (-) TimerEvent: {}
+[4.959977] (-) TimerEvent: {}
+[5.060493] (-) TimerEvent: {}
+[5.161028] (-) TimerEvent: {}
+[5.261512] (-) TimerEvent: {}
+[5.364743] (-) TimerEvent: {}
+[5.468767] (-) TimerEvent: {}
+[5.569604] (-) TimerEvent: {}
+[5.670181] (-) TimerEvent: {}
+[5.771580] (-) TimerEvent: {}
+[5.872118] (-) TimerEvent: {}
+[5.972679] (-) TimerEvent: {}
+[6.073569] (-) TimerEvent: {}
+[6.174164] (-) TimerEvent: {}
+[6.274823] (-) TimerEvent: {}
+[6.375369] (-) TimerEvent: {}
+[6.475917] (-) TimerEvent: {}
+[6.576415] (-) TimerEvent: {}
+[6.677092] (-) TimerEvent: {}
+[6.777907] (-) TimerEvent: {}
+[6.880967] (-) TimerEvent: {}
+[6.981543] (-) TimerEvent: {}
+[6.999879] (path_planner_example) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sjamil/exercises_ws/build/path_planner_example/build', '--no-deps', 'symlink_data'], 'cwd': '/home/sjamil/exercises_ws/build/path_planner_example', 'env': {'VNCDESKTOP': 'e996850caebf:1 (sjamil)', 'QT_SCALE_FACTOR': '1', 'USER': 'sjamil', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': 'e996850caebf', 'XDG_SESSION_TYPE': 'x11', '__GLX_VENDOR_LIBRARY_NAME': 'nvidia', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/sjamil/install/custom_nav2_planner/lib:/home/sjamil/install/create_plan_msgs/lib:/home/sjamil/ros2_ws/install/custom_nav2_planner/lib:/home/sjamil/ros2_ws/install/create_plan_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sjamil', 'OLDPWD': '/', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/sjamil/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-IQS6wn7UUn,guid=68be6f304ec0d1d61f7656e467534d71', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4330', 'GNOME_KEYRING_CONTROL': '/home/sjamil/.cache/keyring-JTOAY2', 'COLCON_PREFIX_PATH': '/home/sjamil/exercises_ws/install:/home/sjamil/install:/home/sjamil/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/e996850caebf:@/tmp/.ICE-unix/1122,unix/e996850caebf:/tmp/.ICE-unix/1122', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'EXERCISES_WS': '/home/sjamil/exercises_ws', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/sjamil/.cache/keyring-JTOAY2/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/sjamil/exercises_ws/install/ros2_exercises2:/home/sjamil/exercises_ws/install/ros2_exercises:/home/sjamil/exercises_ws/install/path_planner_example:/home/sjamil/install/ros2_exercises:/home/sjamil/install/custom_nav2_planner:/home/sjamil/install/create_plan_msgs:/home/sjamil/install/andino_gz:/home/sjamil/ros2_ws/install/custom_nav2_planner:/home/sjamil/ros2_ws/install/create_plan_msgs:/home/sjamil/ros2_ws/install/andino_gz:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'TERMINATOR_UUID': 'urn:uuid:4554e377-ef63-40be-974b-8cf2b67dfef9', 'VNC_PASSWORD': '', 'IGN_GAZEBO_RESOURCE_PATH': '/home/sjamil/install/andino_gz/share/andino_gz/models:/home/sjamil/ros2_ws/install/andino_gz/share/andino_gz/models', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/sjamil/exercises_ws/build/path_planner_example', 'PASSWORD': '', 'PYTHONPATH': '/home/sjamil/exercises_ws/build/path_planner_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/path_planner_example/lib/python3.10/site-packages:/home/sjamil/exercises_ws/build/ros2_exercises2:/home/sjamil/exercises_ws/install/ros2_exercises2/lib/python3.10/site-packages:/home/sjamil/exercises_ws/build/ros2_exercises:/home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages:/home/sjamil/exercises_ws/build/path_planner_example:/home/sjamil/exercises_ws/install/path_planner_example/lib/python3.10/site-packages:/home/sjamil/build/ros2_exercises:/home/sjamil/install/ros2_exercises/lib/python3.10/site-packages:/home/sjamil/install/create_plan_msgs/local/lib/python3.10/dist-packages:/home/sjamil/install/andino_gz/local/lib/python3.10/dist-packages:/home/sjamil/ros2_ws/install/create_plan_msgs/local/lib/python3.10/dist-packages:/home/sjamil/ros2_ws/install/andino_gz/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sjamil/install/custom_nav2_planner:/home/sjamil/install/create_plan_msgs:/home/sjamil/install/andino_gz:/home/sjamil/ros2_ws/install/custom_nav2_planner:/home/sjamil/ros2_ws/install/create_plan_msgs:/home/sjamil/ros2_ws/install/andino_gz', 'ROS2_WS': '/home/sjamil/ros2_ws', 'QT_FONT_DPI': '96'}, 'shell': False}
+[7.081732] (-) TimerEvent: {}
+[7.182298] (-) TimerEvent: {}
+[7.282938] (-) TimerEvent: {}
+[7.383562] (-) TimerEvent: {}
+[7.421018] (ros2_exercises) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sjamil/exercises_ws/build/ros2_exercises/build', '--no-deps', 'symlink_data'], 'cwd': '/home/sjamil/exercises_ws/build/ros2_exercises', 'env': {'VNCDESKTOP': 'e996850caebf:1 (sjamil)', 'QT_SCALE_FACTOR': '1', 'USER': 'sjamil', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': 'e996850caebf', 'XDG_SESSION_TYPE': 'x11', '__GLX_VENDOR_LIBRARY_NAME': 'nvidia', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/sjamil/install/custom_nav2_planner/lib:/home/sjamil/install/create_plan_msgs/lib:/home/sjamil/ros2_ws/install/custom_nav2_planner/lib:/home/sjamil/ros2_ws/install/create_plan_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sjamil', 'OLDPWD': '/', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/sjamil/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-IQS6wn7UUn,guid=68be6f304ec0d1d61f7656e467534d71', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4330', 'GNOME_KEYRING_CONTROL': '/home/sjamil/.cache/keyring-JTOAY2', 'COLCON_PREFIX_PATH': '/home/sjamil/exercises_ws/install:/home/sjamil/install:/home/sjamil/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/e996850caebf:@/tmp/.ICE-unix/1122,unix/e996850caebf:/tmp/.ICE-unix/1122', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'EXERCISES_WS': '/home/sjamil/exercises_ws', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/sjamil/.cache/keyring-JTOAY2/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/sjamil/exercises_ws/install/ros2_exercises2:/home/sjamil/exercises_ws/install/ros2_exercises:/home/sjamil/exercises_ws/install/path_planner_example:/home/sjamil/install/ros2_exercises:/home/sjamil/install/custom_nav2_planner:/home/sjamil/install/create_plan_msgs:/home/sjamil/install/andino_gz:/home/sjamil/ros2_ws/install/custom_nav2_planner:/home/sjamil/ros2_ws/install/create_plan_msgs:/home/sjamil/ros2_ws/install/andino_gz:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'TERMINATOR_UUID': 'urn:uuid:4554e377-ef63-40be-974b-8cf2b67dfef9', 'VNC_PASSWORD': '', 'IGN_GAZEBO_RESOURCE_PATH': '/home/sjamil/install/andino_gz/share/andino_gz/models:/home/sjamil/ros2_ws/install/andino_gz/share/andino_gz/models', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/sjamil/exercises_ws/build/ros2_exercises', 'PASSWORD': '', 'PYTHONPATH': '/home/sjamil/exercises_ws/build/ros2_exercises/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages:/home/sjamil/exercises_ws/build/ros2_exercises2:/home/sjamil/exercises_ws/install/ros2_exercises2/lib/python3.10/site-packages:/home/sjamil/exercises_ws/build/ros2_exercises:/home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages:/home/sjamil/exercises_ws/build/path_planner_example:/home/sjamil/exercises_ws/install/path_planner_example/lib/python3.10/site-packages:/home/sjamil/build/ros2_exercises:/home/sjamil/install/ros2_exercises/lib/python3.10/site-packages:/home/sjamil/install/create_plan_msgs/local/lib/python3.10/dist-packages:/home/sjamil/install/andino_gz/local/lib/python3.10/dist-packages:/home/sjamil/ros2_ws/install/create_plan_msgs/local/lib/python3.10/dist-packages:/home/sjamil/ros2_ws/install/andino_gz/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sjamil/install/custom_nav2_planner:/home/sjamil/install/create_plan_msgs:/home/sjamil/install/andino_gz:/home/sjamil/ros2_ws/install/custom_nav2_planner:/home/sjamil/ros2_ws/install/create_plan_msgs:/home/sjamil/ros2_ws/install/andino_gz', 'ROS2_WS': '/home/sjamil/ros2_ws', 'QT_FONT_DPI': '96'}, 'shell': False}
+[7.483712] (-) TimerEvent: {}
+[7.584313] (-) TimerEvent: {}
+[7.688002] (-) TimerEvent: {}
+[7.788555] (-) TimerEvent: {}
+[7.889158] (-) TimerEvent: {}
+[7.989719] (-) TimerEvent: {}
+[8.090209] (-) TimerEvent: {}
+[8.190867] (-) TimerEvent: {}
+[8.244017] (path_planner_example) StdoutLine: {'line': b'running develop\n'}
+[8.291015] (-) TimerEvent: {}
+[8.354629] (ros2_exercises2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sjamil/exercises_ws/build/ros2_exercises2/build', '--no-deps', 'symlink_data'], 'cwd': '/home/sjamil/exercises_ws/build/ros2_exercises2', 'env': {'VNCDESKTOP': 'e996850caebf:1 (sjamil)', 'QT_SCALE_FACTOR': '1', 'USER': 'sjamil', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': 'e996850caebf', 'XDG_SESSION_TYPE': 'x11', '__GLX_VENDOR_LIBRARY_NAME': 'nvidia', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/sjamil/install/custom_nav2_planner/lib:/home/sjamil/install/create_plan_msgs/lib:/home/sjamil/ros2_ws/install/custom_nav2_planner/lib:/home/sjamil/ros2_ws/install/create_plan_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sjamil', 'OLDPWD': '/', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/sjamil/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-IQS6wn7UUn,guid=68be6f304ec0d1d61f7656e467534d71', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4330', 'GNOME_KEYRING_CONTROL': '/home/sjamil/.cache/keyring-JTOAY2', 'COLCON_PREFIX_PATH': '/home/sjamil/exercises_ws/install:/home/sjamil/install:/home/sjamil/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/e996850caebf:@/tmp/.ICE-unix/1122,unix/e996850caebf:/tmp/.ICE-unix/1122', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'EXERCISES_WS': '/home/sjamil/exercises_ws', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/sjamil/.cache/keyring-JTOAY2/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/sjamil/exercises_ws/install/ros2_exercises2:/home/sjamil/exercises_ws/install/ros2_exercises:/home/sjamil/exercises_ws/install/path_planner_example:/home/sjamil/install/ros2_exercises:/home/sjamil/install/custom_nav2_planner:/home/sjamil/install/create_plan_msgs:/home/sjamil/install/andino_gz:/home/sjamil/ros2_ws/install/custom_nav2_planner:/home/sjamil/ros2_ws/install/create_plan_msgs:/home/sjamil/ros2_ws/install/andino_gz:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'TERMINATOR_UUID': 'urn:uuid:4554e377-ef63-40be-974b-8cf2b67dfef9', 'VNC_PASSWORD': '', 'IGN_GAZEBO_RESOURCE_PATH': '/home/sjamil/install/andino_gz/share/andino_gz/models:/home/sjamil/ros2_ws/install/andino_gz/share/andino_gz/models', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/sjamil/exercises_ws/build/ros2_exercises2', 'PASSWORD': '', 'PYTHONPATH': '/home/sjamil/exercises_ws/build/ros2_exercises2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises2/lib/python3.10/site-packages:/home/sjamil/exercises_ws/build/ros2_exercises2:/home/sjamil/exercises_ws/install/ros2_exercises2/lib/python3.10/site-packages:/home/sjamil/exercises_ws/build/ros2_exercises:/home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages:/home/sjamil/exercises_ws/build/path_planner_example:/home/sjamil/exercises_ws/install/path_planner_example/lib/python3.10/site-packages:/home/sjamil/build/ros2_exercises:/home/sjamil/install/ros2_exercises/lib/python3.10/site-packages:/home/sjamil/install/create_plan_msgs/local/lib/python3.10/dist-packages:/home/sjamil/install/andino_gz/local/lib/python3.10/dist-packages:/home/sjamil/ros2_ws/install/create_plan_msgs/local/lib/python3.10/dist-packages:/home/sjamil/ros2_ws/install/andino_gz/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sjamil/install/custom_nav2_planner:/home/sjamil/install/create_plan_msgs:/home/sjamil/install/andino_gz:/home/sjamil/ros2_ws/install/custom_nav2_planner:/home/sjamil/ros2_ws/install/create_plan_msgs:/home/sjamil/ros2_ws/install/andino_gz', 'ROS2_WS': '/home/sjamil/ros2_ws', 'QT_FONT_DPI': '96'}, 'shell': False}
+[8.391164] (-) TimerEvent: {}
+[8.491752] (-) TimerEvent: {}
+[8.592416] (-) TimerEvent: {}
+[8.692917] (-) TimerEvent: {}
+[8.793437] (-) TimerEvent: {}
+[8.893915] (-) TimerEvent: {}
+[8.994591] (-) TimerEvent: {}
+[9.093722] (path_planner_example) StdoutLine: {'line': b'running egg_info\n'}
+[9.094432] (path_planner_example) StdoutLine: {'line': b'writing path_planner_example.egg-info/PKG-INFO\n'}
+[9.094595] (-) TimerEvent: {}
+[9.095046] (path_planner_example) StdoutLine: {'line': b'writing dependency_links to path_planner_example.egg-info/dependency_links.txt\n'}
+[9.095226] (path_planner_example) StdoutLine: {'line': b'writing entry points to path_planner_example.egg-info/entry_points.txt\n'}
+[9.095374] (path_planner_example) StdoutLine: {'line': b'writing requirements to path_planner_example.egg-info/requires.txt\n'}
+[9.095498] (path_planner_example) StdoutLine: {'line': b'writing top-level names to path_planner_example.egg-info/top_level.txt\n'}
+[9.097617] (path_planner_example) StdoutLine: {'line': b"reading manifest file 'path_planner_example.egg-info/SOURCES.txt'\n"}
+[9.098898] (path_planner_example) StdoutLine: {'line': b"writing manifest file 'path_planner_example.egg-info/SOURCES.txt'\n"}
+[9.103124] (path_planner_example) StdoutLine: {'line': b'running build_ext\n'}
+[9.103427] (path_planner_example) StdoutLine: {'line': b'Creating /home/sjamil/exercises_ws/install/path_planner_example/lib/python3.10/site-packages/path-planner-example.egg-link (link to .)\n'}
+[9.105344] (path_planner_example) StdoutLine: {'line': b'Installing path_planner_node script to /home/sjamil/exercises_ws/install/path_planner_example/lib/path_planner_example\n'}
+[9.105898] (path_planner_example) StdoutLine: {'line': b'\n'}
+[9.106068] (path_planner_example) StdoutLine: {'line': b'Installed /home/sjamil/exercises_ws/build/path_planner_example\n'}
+[9.106193] (path_planner_example) StdoutLine: {'line': b'running symlink_data\n'}
+[9.175504] (path_planner_example) CommandEnded: {'returncode': 0}
+[9.196691] (-) TimerEvent: {}
+[9.254387] (path_planner_example) JobEnded: {'identifier': 'path_planner_example', 'rc': 0}
+[9.297246] (-) TimerEvent: {}
+[9.397720] (-) TimerEvent: {}
+[9.498471] (-) TimerEvent: {}
+[9.598974] (-) TimerEvent: {}
+[9.699974] (-) TimerEvent: {}
+[9.759982] (ros2_exercises) StdoutLine: {'line': b'running develop\n'}
+[9.800113] (-) TimerEvent: {}
+[9.853661] (ros2_exercises2) StdoutLine: {'line': b'running develop\n'}
+[9.900256] (-) TimerEvent: {}
+[10.001037] (-) TimerEvent: {}
+[10.101781] (-) TimerEvent: {}
+[10.202322] (-) TimerEvent: {}
+[10.303660] (-) TimerEvent: {}
+[10.404212] (-) TimerEvent: {}
+[10.467952] (ros2_exercises2) StdoutLine: {'line': b'running egg_info\n'}
+[10.468324] (ros2_exercises2) StdoutLine: {'line': b'writing ros2_exercises2.egg-info/PKG-INFO\n'}
+[10.469301] (ros2_exercises2) StdoutLine: {'line': b'writing dependency_links to ros2_exercises2.egg-info/dependency_links.txt\n'}
+[10.469404] (ros2_exercises2) StdoutLine: {'line': b'writing entry points to ros2_exercises2.egg-info/entry_points.txt\n'}
+[10.469612] (ros2_exercises2) StdoutLine: {'line': b'writing requirements to ros2_exercises2.egg-info/requires.txt\n'}
+[10.469741] (ros2_exercises2) StdoutLine: {'line': b'writing top-level names to ros2_exercises2.egg-info/top_level.txt\n'}
+[10.473332] (ros2_exercises2) StdoutLine: {'line': b"reading manifest file 'ros2_exercises2.egg-info/SOURCES.txt'\n"}
+[10.474265] (ros2_exercises2) StdoutLine: {'line': b"writing manifest file 'ros2_exercises2.egg-info/SOURCES.txt'\n"}
+[10.476197] (ros2_exercises2) StdoutLine: {'line': b'running build_ext\n'}
+[10.478799] (ros2_exercises2) StdoutLine: {'line': b'Creating /home/sjamil/exercises_ws/install/ros2_exercises2/lib/python3.10/site-packages/ros2-exercises2.egg-link (link to .)\n'}
+[10.478958] (ros2_exercises2) StdoutLine: {'line': b'Installing odometry_publsiher script to /home/sjamil/exercises_ws/install/ros2_exercises2/lib/ros2_exercises2\n'}
+[10.479502] (ros2_exercises2) StdoutLine: {'line': b'\n'}
+[10.479645] (ros2_exercises2) StdoutLine: {'line': b'Installed /home/sjamil/exercises_ws/build/ros2_exercises2\n'}
+[10.479750] (ros2_exercises2) StdoutLine: {'line': b'running symlink_data\n'}
+[10.504750] (-) TimerEvent: {}
+[10.559080] (ros2_exercises2) CommandEnded: {'returncode': 0}
+[10.593153] (ros2_exercises2) JobEnded: {'identifier': 'ros2_exercises2', 'rc': 0}
+[10.604904] (-) TimerEvent: {}
+[10.705415] (-) TimerEvent: {}
+[10.784761] (ros2_exercises) StdoutLine: {'line': b'running egg_info\n'}
+[10.785319] (ros2_exercises) StdoutLine: {'line': b'writing ros2_exercises.egg-info/PKG-INFO\n'}
+[10.785926] (ros2_exercises) StdoutLine: {'line': b'writing dependency_links to ros2_exercises.egg-info/dependency_links.txt\n'}
+[10.786078] (ros2_exercises) StdoutLine: {'line': b'writing entry points to ros2_exercises.egg-info/entry_points.txt\n'}
+[10.788216] (ros2_exercises) StdoutLine: {'line': b'writing requirements to ros2_exercises.egg-info/requires.txt\n'}
+[10.788430] (ros2_exercises) StdoutLine: {'line': b'writing top-level names to ros2_exercises.egg-info/top_level.txt\n'}
+[10.789195] (ros2_exercises) StdoutLine: {'line': b"reading manifest file 'ros2_exercises.egg-info/SOURCES.txt'\n"}
+[10.791002] (ros2_exercises) StdoutLine: {'line': b"writing manifest file 'ros2_exercises.egg-info/SOURCES.txt'\n"}
+[10.792968] (ros2_exercises) StdoutLine: {'line': b'running build_ext\n'}
+[10.798044] (ros2_exercises) StdoutLine: {'line': b'Creating /home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages/ros2-exercises.egg-link (link to .)\n'}
+[10.799268] (ros2_exercises) StdoutLine: {'line': b'Installing odometry_publisher script to /home/sjamil/exercises_ws/install/ros2_exercises/lib/ros2_exercises\n'}
+[10.802161] (ros2_exercises) StdoutLine: {'line': b'\n'}
+[10.802435] (ros2_exercises) StdoutLine: {'line': b'Installed /home/sjamil/exercises_ws/build/ros2_exercises\n'}
+[10.802548] (ros2_exercises) StdoutLine: {'line': b'running symlink_data\n'}
+[10.809287] (-) TimerEvent: {}
+[10.910284] (-) TimerEvent: {}
+[10.946569] (ros2_exercises) CommandEnded: {'returncode': 0}
+[10.968129] (ros2_exercises) JobEnded: {'identifier': 'ros2_exercises', 'rc': 0}
+[10.978853] (-) EventReactorShutdown: {}

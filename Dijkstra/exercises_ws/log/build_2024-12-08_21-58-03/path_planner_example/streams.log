@@ -1,0 +1,17 @@
+[5.489s] Invoking command in '/home/sjamil/exercises_ws/build/path_planner_example': PYTHONPATH=/home/sjamil/exercises_ws/build/path_planner_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/path_planner_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sjamil/exercises_ws/build/path_planner_example/build --no-deps symlink_data
+[6.828s] running develop
+[7.718s] running egg_info
+[7.719s] writing path_planner_example.egg-info/PKG-INFO
+[7.722s] writing dependency_links to path_planner_example.egg-info/dependency_links.txt
+[7.726s] writing entry points to path_planner_example.egg-info/entry_points.txt
+[7.727s] writing requirements to path_planner_example.egg-info/requires.txt
+[7.730s] writing top-level names to path_planner_example.egg-info/top_level.txt
+[7.753s] reading manifest file 'path_planner_example.egg-info/SOURCES.txt'
+[7.760s] writing manifest file 'path_planner_example.egg-info/SOURCES.txt'
+[7.779s] running build_ext
+[7.784s] Creating /home/sjamil/exercises_ws/install/path_planner_example/lib/python3.10/site-packages/path-planner-example.egg-link (link to .)
+[7.794s] Installing path_planner_node script to /home/sjamil/exercises_ws/install/path_planner_example/lib/path_planner_example
+[7.800s] 
+[7.800s] Installed /home/sjamil/exercises_ws/build/path_planner_example
+[7.801s] running symlink_data
+[8.113s] Invoked command in '/home/sjamil/exercises_ws/build/path_planner_example' returned '0': PYTHONPATH=/home/sjamil/exercises_ws/build/path_planner_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/path_planner_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sjamil/exercises_ws/build/path_planner_example/build --no-deps symlink_data

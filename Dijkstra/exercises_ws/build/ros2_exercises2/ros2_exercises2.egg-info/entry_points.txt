@@ -1,0 +1,3 @@
+[console_scripts]
+odometry_publsiher = ros2_exercises2.odometry_publsiher:main
+

@@ -1,0 +1,17 @@
+[5.237s] Invoking command in '/home/sjamil/exercises_ws/build/ros2_exercises2': PYTHONPATH=/home/sjamil/exercises_ws/build/ros2_exercises2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sjamil/exercises_ws/build/ros2_exercises2/build --no-deps symlink_data
+[6.592s] running develop
+[7.825s] running egg_info
+[7.826s] writing ros2_exercises2.egg-info/PKG-INFO
+[7.827s] writing dependency_links to ros2_exercises2.egg-info/dependency_links.txt
+[7.829s] writing entry points to ros2_exercises2.egg-info/entry_points.txt
+[7.829s] writing requirements to ros2_exercises2.egg-info/requires.txt
+[7.830s] writing top-level names to ros2_exercises2.egg-info/top_level.txt
+[7.837s] reading manifest file 'ros2_exercises2.egg-info/SOURCES.txt'
+[7.839s] writing manifest file 'ros2_exercises2.egg-info/SOURCES.txt'
+[7.852s] running build_ext
+[7.856s] Creating /home/sjamil/exercises_ws/install/ros2_exercises2/lib/python3.10/site-packages/ros2-exercises2.egg-link (link to .)
+[7.858s] Installing odometry_publsiher script to /home/sjamil/exercises_ws/install/ros2_exercises2/lib/ros2_exercises2
+[7.861s] 
+[7.861s] Installed /home/sjamil/exercises_ws/build/ros2_exercises2
+[7.861s] running symlink_data
+[8.052s] Invoked command in '/home/sjamil/exercises_ws/build/ros2_exercises2' returned '0': PYTHONPATH=/home/sjamil/exercises_ws/build/ros2_exercises2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sjamil/exercises_ws/build/ros2_exercises2/build --no-deps symlink_data

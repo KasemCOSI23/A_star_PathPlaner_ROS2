@@ -1,0 +1,17 @@
+[5.635s] Invoking command in '/home/sjamil/exercises_ws/build/ros2_exercises': PYTHONPATH=/home/sjamil/exercises_ws/build/ros2_exercises/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sjamil/exercises_ws/build/ros2_exercises/build --no-deps symlink_data
+[6.528s] running develop
+[7.427s] running egg_info
+[7.427s] writing ros2_exercises.egg-info/PKG-INFO
+[7.429s] writing dependency_links to ros2_exercises.egg-info/dependency_links.txt
+[7.430s] writing entry points to ros2_exercises.egg-info/entry_points.txt
+[7.430s] writing requirements to ros2_exercises.egg-info/requires.txt
+[7.430s] writing top-level names to ros2_exercises.egg-info/top_level.txt
+[7.446s] reading manifest file 'ros2_exercises.egg-info/SOURCES.txt'
+[7.446s] writing manifest file 'ros2_exercises.egg-info/SOURCES.txt'
+[7.452s] running build_ext
+[7.453s] Creating /home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages/ros2-exercises.egg-link (link to .)
+[7.458s] Installing odometry_publisher script to /home/sjamil/exercises_ws/install/ros2_exercises/lib/ros2_exercises
+[7.465s] 
+[7.465s] Installed /home/sjamil/exercises_ws/build/ros2_exercises
+[7.465s] running symlink_data
+[7.683s] Invoked command in '/home/sjamil/exercises_ws/build/ros2_exercises' returned '0': PYTHONPATH=/home/sjamil/exercises_ws/build/ros2_exercises/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sjamil/exercises_ws/install/ros2_exercises/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sjamil/exercises_ws/build/ros2_exercises/build --no-deps symlink_data

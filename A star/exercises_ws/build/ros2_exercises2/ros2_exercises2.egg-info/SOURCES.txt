@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/ros2_exercises2
+ros2_exercises2/__init__.py
+ros2_exercises2/odometry_publsiher.py
+ros2_exercises2.egg-info/PKG-INFO
+ros2_exercises2.egg-info/SOURCES.txt
+ros2_exercises2.egg-info/dependency_links.txt
+ros2_exercises2.egg-info/entry_points.txt
+ros2_exercises2.egg-info/requires.txt
+ros2_exercises2.egg-info/top_level.txt
+ros2_exercises2.egg-info/zip-safe

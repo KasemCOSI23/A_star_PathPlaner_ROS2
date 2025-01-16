@@ -1,0 +1,1 @@
+We tried two algorithms so each folder corresponds to one algorithm as you can find exercises_ws.zip in each folder. 
