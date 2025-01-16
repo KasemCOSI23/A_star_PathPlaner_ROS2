@@ -1,7 +1,7 @@
 # Implementation of Path planning algorithms (A* and Dijkstra) in ROS2
 Worked with a group of three COSI students to implement A* and Dijkstra path planning algorithms for a robot using ROS2.
 
-1. **A* Algorithm Implementation**:
+1. **A star Algorithm Implementation**:
 - Developed and tested the A* algorithm for pathfinding in a dynamic environment.
 - Converted real-world coordinates to grid-based cost map coordinates for path calculations.
 - Implemented a priority queue using cumulative costs and a heuristic for navigation.
